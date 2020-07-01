@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/sytle.css">
+    <title>Inscrição</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid bg-image">
+    </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <form class="mt-3" id="form-cad">
+                    <div class="form-group">
+                        <label for="">Nome Completo</label>
+                        <input type="text" name="nome" id="nome" class="form-control">
+                        <span id="valida-nome" class="text-info">Por favor digite seu nome completo!</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Data de Nascimento</label>
+                                <input type="text" name="nasc" id="nasc" class="form-control">
+                                <span id="valida-data" class="text-info">Digite sua data de nascimento</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">CEP</label>
+                                <input type="text" name="cep" id="cep" class="form-control">
+                                <span id="valida-cep" class="text-info">Digite seu cep corretamente</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Endereço</label>
+                        <input type="text" name="" id="" class="form-control">
+                        <span id="valida-end" class="text-info">Digite seu endereço </span>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Cidade</label>
+                                <input type="text" name="" id="" class="form-control">
+                                <span id="valida-city" class="text-info">Digite sua cidade</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Estado</label>
+                                <input type="text" name="" id="" class="form-control">
+                                <span id="valida-uf" class="text-info">Digite seu estado</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Bairro</label>
+                        <input type="text" name="" id="" class="form-control">
+                        <span id="valida-bairro" class="text-info">Digite seu bairro</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Telefone Fixo</label>
+                                <input type="tel" name="tel" id="tel" class="form-control">
+                                <span id="valida-tel" class="text-info">Digite seu telefone</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Telefone Celular</label>
+                                <input type="cel" name="cel" id="cel" class="form-control">
+                                <span id="valida-cel" class="text-info">Digite seu numero de celular</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" name="email" id="email" class="form-control">
+                        <span id="valida-email" class="text-info">Digite seu email</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md 12">
+                            Estado civil
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-4 col-md-4">
+                            <button class="btn btn-block bg-info text-white">Solteito</button>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <button class="btn btn-block bg-info text-white" id="casado">Casado</button>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <button class="btn btn-block bg-info text-white">Divorciado</button>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3" id="form-conju">
+                        <div class="col-12 col-md-12">
+                            <div class="form-group">
+                                <label for="">Nome da conjuguê</label>
+                                <input type="email" name="conjugue" id="conjugue" class="form-control">
+                                <span id="valida-conjugue" class="text-info">Digite seu conjuguê</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Data de nascimento</label>
+                                <input type="text" name="nasc" id="nasc" class="form-control">
+                                <span id="valida-nasc" class="text-info">Data de nascimento</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Telefone Fixo</label>
+                                <input type="tel" name="tel" id="tel" class="form-control">
+                                <span id="valida-tel" class="text-info">Digite seu telefone</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dep" class="row mt-3">
+                        <div class="col-12 col-md-12">
+                            <label for="">Dependentes</label>
+                        </div>
+                        <div class="col-8 col-md-8">
+                            <input type="number" name="qtde" id="qtde" class="form-control">
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <button class="btn btn-info btn-block btn-depende">Ok</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-block btn-info mt-4">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="jQuery-Mask-Plugin-master/jquery-mask/dist/jquery.mask.js"></script>
+    <script src="font/js/fontawesome.js"></script>
+    <script src="js/trabalho.js"></script>
+</body>
+
+</html>
